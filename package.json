@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "postinstall": "prisma generate",
+    "postinstall": "nuxt prepare",
     "start": "nuxt start",
     "dev": "nuxt dev --port 3001"
   },
